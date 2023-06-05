@@ -1,23 +1,22 @@
 import IQueue from "./IQueue";
 
 class ArrayQueue<T> implements IQueue<T> {
-  private data: T[] = [];
-
   enqueue(element: T): void {
-    this.data.push(element);
+    throw new Error("Method not implemented.");
   }
   dequeue(): T | undefined {
-    return this.data.shift();
+    throw new Error("Method not implemented.");
   }
   peek(): T | undefined {
-    return this.data[0];
+    throw new Error("Method not implemented.");
   }
   isEmpty(): boolean {
-    return this.data.length === 0;
+    throw new Error("Method not implemented.");
   }
   size(): number {
-    return this.data.length;
+    throw new Error("Method not implemented.");
   }
+  
 }
 
 export default ArrayQueue;
