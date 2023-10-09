@@ -1,4 +1,4 @@
-import ArrayStack from "./01_实现栈结构Stack(数组)";
+import ArrayStack from "./01_实现栈Stack(基于数组)";
 
 function decimalToBinary(decimal: number): string {
   // 创建一个栈,用于存放余数

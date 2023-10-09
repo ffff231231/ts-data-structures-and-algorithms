@@ -6,6 +6,7 @@ class ListNode {
     this.next = next === undefined ? null : next;
   }
 }
+
 function reverseList(head: ListNode | null): ListNode | null {
   // 终止条件成立时，手动解决最后1层子问题。（做递归最后1层应做的事情）
   if (head === null || head.next === null) return head
@@ -17,4 +18,5 @@ function reverseList(head: ListNode | null): ListNode | null {
   head.next = null
   return newHead
 }
+
 export {};

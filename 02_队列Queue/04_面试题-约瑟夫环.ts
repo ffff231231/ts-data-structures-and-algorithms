@@ -1,4 +1,4 @@
-import ArrayQueue from "./01_实现队列结构Queue(数组)";
+import ArrayQueue from "./01_实现队列Queue(基于数组)";
 
 function lastRemaining(n: number, m: number): number {
   // 创建队列

@@ -6,6 +6,7 @@ class ListNode {
     this.next = next === undefined ? null : next;
   }
 }
+
 function reverseList(head: ListNode | null): ListNode | null {
   // 边界判断
   if (head === null || head.next === null) return head;
